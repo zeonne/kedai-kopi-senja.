@@ -35,6 +35,8 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 100px 15x rgba(0, 0, 0, 0.2);
 }
 
 .navbar .navbar-logo {
@@ -52,7 +54,8 @@ body {
   color: #fff;
   display: inline-block;
   font-size: 1.3rem;
-  margin: 0.1rem;
+  margin: 0.5rem;
+  /* gap: 50rem; */
 }
 
 .navbar .navbar-nav a:hover {
